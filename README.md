@@ -1,38 +1,39 @@
-# create-svelte
+# svelte-heroicons
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+Yet another Svelte wrapper for [Heroicons](https://heroicons.com). 
 
-## Creating a project
+This library differs from others in two main ways:
+* The icon components forward common event listeners to the underlying SVG, so you may use `on:click` and so on;
+* The API is closer to the official React wrappers, making it easier to use when converting [Tailwind UI](https://tailwindui.com/) components to Svelte in conjunction with [svelte-headlessui](https://github.com/rgossiaux/svelte-headlessui).
 
-If you're seeing this, you've probably already done this step. Congrats!
+# Installation
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
+```
+npm install @rgossiaux/svelte-heroicons
 ```
 
-> Note: the `@next` is temporary
+# Usage
 
-## Developing
+```svelte
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+<script>
+import { SelectorIcon } from "@rgossiaux/svelte-heroicons/solid";
+import { CheckIcon } from "@rgossiaux/svelte-heroicons/outline";
+</script>
 
-```bash
-npm run dev
+<CheckIcon />
+<SelectorIcon class="my-class" aria-hidden="true" />
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+# Documentation
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+See [heroicons.com](https://heroicons.com) for the full list of icons.
 
-```bash
-npm run build
-```
+# License
 
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+As with the main Heroicons library, this library is MIT licensed.
+
+# Credit
+
+All credit goes to Tailwind Labs for designing the icons and to the [svg-to-svelte](https://github.com/metonym/svg-to-svelte) library for the tooling to wrap them as Svelte components.

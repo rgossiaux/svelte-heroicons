@@ -10,6 +10,12 @@ const config = {
   kit: {
     adapter: adapter(),
 
+    package: {
+      exports: (filepath) => {
+        return filepath.endsWith("solid/index.js") || filepath.endsWith("outline/index.js");
+      },
+    },
+
     // hydrate the <div id="svelte"> element in src/app.html
     target: "#svelte",
   },
