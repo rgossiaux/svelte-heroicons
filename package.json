@@ -1,5 +1,5 @@
 {
-  "name": "svelte-heroicons",
+  "name": "@rgossiaux/svelte-heroicons",
   "description": "Svelte wrappers for the Heroicons library.",
   "keywords": [
     "svelte",
