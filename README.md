@@ -2,9 +2,10 @@
 
 Yet another Svelte wrapper for [Heroicons](https://heroicons.com). 
 
-This library differs from others in two main ways:
+This library differs from others in a couple main ways:
 * The icon components forward common event listeners to the underlying SVG, so you may use `on:click` and so on;
 * The API is closer to the official React wrappers, making it easier to use when converting [Tailwind UI](https://tailwindui.com/) components to Svelte in conjunction with [svelte-headlessui](https://github.com/rgossiaux/svelte-headlessui).
+* It's based on the latest version of Heroicons (at time of writing), **1.0.5**
 
 # Installation
 
