@@ -15,11 +15,15 @@ npm install @rgossiaux/svelte-heroicons
 
 # Usage
 
+Heroicons contains two types of icons: outline and solid. They can be imported from `@rgossiaux/svelte-heroicons/outline` and `@rgossiaux/svelte-heroicons/solid` respectively. 
+
+All icon names are CamelCased and end with the word `Icon`; for example, the `academic-cap` icon on heroicons.com is imported as `AcademicCapIcon`.
+
 ```svelte
 
 <script>
-import { SelectorIcon } from "@rgossiaux/svelte-heroicons/solid";
-import { CheckIcon } from "@rgossiaux/svelte-heroicons/outline";
+  import { SelectorIcon } from "@rgossiaux/svelte-heroicons/solid";
+  import { CheckIcon } from "@rgossiaux/svelte-heroicons/outline";
 </script>
 
 <CheckIcon />
