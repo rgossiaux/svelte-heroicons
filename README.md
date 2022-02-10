@@ -10,7 +10,7 @@ This library differs from others in a couple main ways:
 # Installation
 
 ```
-npm install @rgossiaux/svelte-heroicons
+npm install -D @rgossiaux/svelte-heroicons
 ```
 
 # Usage
