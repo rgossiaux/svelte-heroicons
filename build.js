@@ -11,7 +11,7 @@ async function build() {
   );
 
   let index = await fs.readFile("src/lib/solid/index.js", { encoding: "utf-8" });
-  index = index.replace(/export { (\w+) }/g, "export { $1 as $1Icon }");
+  index = index.replace(/export { (\w+) }/g, "export { $1 as $1Icon }").replace(/from ".\/(\w+)";/g, 'from "./$1/index.js";');
   await fs.writeFile("src/lib/solid/index.js", index);
 
   await generateFromFolder(
@@ -21,7 +21,7 @@ async function build() {
   );
 
   index = await fs.readFile("src/lib/outline/index.js", { encoding: "utf-8" });
-  index = index.replace(/export { (\w+) }/g, "export { $1 as $1Icon }");
+  index = index.replace(/export { (\w+) }/g, "export { $1 as $1Icon }").replace(/from ".\/(\w+)";/g, 'from "./$1/index.js";');
   await fs.writeFile("src/lib/outline/index.js", index);
 }
 
