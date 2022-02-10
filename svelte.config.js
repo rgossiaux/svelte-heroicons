@@ -12,7 +12,7 @@ const config = {
 
     package: {
       exports: (filepath) => {
-        return filepath.endsWith("solid/index.js") || filepath.endsWith("outline/index.js");
+        return filepath.endsWith("index.js");
       },
     },
 
