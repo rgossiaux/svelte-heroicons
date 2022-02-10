@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/rgossiaux/svelte-heroicons",
   "repository": "github:rgossiaux/svelte-heroicons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
