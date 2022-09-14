@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/rgossiaux/svelte-heroicons",
   "repository": "github:rgossiaux/svelte-heroicons",
-  "version": "0.1.2",
+  "version": "2.0.0",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
@@ -38,7 +38,7 @@
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^3.2.1",
-    "heroicons": "^1.0.5",
+    "heroicons": "^2.0.11",
     "prettier": "^2.4.1",
     "prettier-plugin-svelte": "^2.4.0",
     "svelte": "^3.44.0",
