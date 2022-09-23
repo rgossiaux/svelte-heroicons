@@ -1,3 +1,3 @@
-<!-- svelte-ignore a11y-mouse-events-have-key-events --><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" {...$$restProps} on:click on:mouseover on:mouseenter on:mouseleave on:keydown><slot />
-  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 000 2h6a1 1 0 100-2H7z" clip-rule="evenodd"/>
+<!-- svelte-ignore a11y-mouse-events-have-key-events --><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...$$restProps} on:click on:mouseover on:mouseenter on:mouseleave on:keydown><slot />
+  <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm3 10.5a.75.75 0 000-1.5H9a.75.75 0 000 1.5h6z" clip-rule="evenodd"/>
 </svg>
